@@ -1,14 +1,17 @@
 {
   "name": "easy-discord-error",
-  "version": "0.0.23.5",
+  "version": "1.0.0",
   "description": "Discord.js error handler",
   "main": "handler.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "discord.js": "^13.0.0",
+    "typescript": "^4.3.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "RaZe#2841",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
